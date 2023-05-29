@@ -2,18 +2,19 @@
 # Website : https://www.hacksec.in
 # Date : Wednesday, 26 January 2022
 # Time : 04:04 AM
-
-from platform import python_version
-from pyfiglet import Figlet
-from pydantic import BaseModel
-import argparse
-import sys
-import os
-from time import sleep
-from Builder import Teardroid as TeardroidBuilder
-from colorama import Fore, Style
-import emoji
-
+try:
+    from platform import python_version
+    from pyfiglet import Figlet
+    from pydantic import BaseModel
+    import argparse
+    import sys
+    import os
+    from time import sleep
+    from Builder import Teardroid as TeardroidBuilder
+    from colorama import Fore, Style
+    import emoji
+except ModuleNotFoundError:
+    print("Please run pip install -r requirements.txt to install requirements")
 
 def check_python():
     python_info = python_version().split(".")

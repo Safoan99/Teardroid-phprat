@@ -53,6 +53,7 @@ OpenJDK 64-Bit Server VM (build 11.0.13+8, mixed mode)
 - Manjaro
 - Kali linux
 - Ubuntu
+- macOS Ventura
 
 ### Run control panel on deta.space
 
@@ -118,6 +119,9 @@ $ python Teardroid.py -b your_app_name
 - You will also be prompted for the title and text of the notification. Enter what you want to display on the notification.
 - then it ask you to enter the icon folder path so enter the icon folder path
 - DONE
+
+### Note for macOS
+- If you got Permissions Denial in mac os please run `chmod 777 *` inside Teardroid folder
 
 ### Dashboard
 

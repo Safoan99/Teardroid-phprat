@@ -137,27 +137,27 @@
     .line 11
     sput-object v0, Lcom/example/teardroidv2/AppInfo;->devHostName:Ljava/lang/String;
 
-    const-string v0, "https://hellokitty-1-j8034997.deta.app"
+    const-string v0, "https://google.com"
 
     .line 12
     sput-object v0, Lcom/example/teardroidv2/AppInfo;->HOSTNAME:Ljava/lang/String;
 
-    const-string v0, "gfdg"
+    const-string v0, ""
 
     .line 13
     sput-object v0, Lcom/example/teardroidv2/AppInfo;->NotificationTitle:Ljava/lang/String;
 
-    const-string v0, "dfgfd"
+    const-string v0, ""
 
     .line 14
     sput-object v0, Lcom/example/teardroidv2/AppInfo;->NotificationContent:Ljava/lang/String;
 
-    const-string v0, "gfdg"
+    const-string v0, ""
 
     .line 15
     sput-object v0, Lcom/example/teardroidv2/AppInfo;->NotificationSubText:Ljava/lang/String;
 
-    const-string v0, "https://dropbox.com"
+    const-string v0, "https://google.com"
 
     .line 16
     sput-object v0, Lcom/example/teardroidv2/AppInfo;->RedirctURL:Ljava/lang/String;

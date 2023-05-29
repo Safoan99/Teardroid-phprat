@@ -92,7 +92,7 @@ class Teardroid:
             if macOS_Check == False:
                 zipalign = os.path.join(os.getcwd(), "zipalign")
             else:
-                zipalign = os.path.join(os.getcwd(), "zipalign_macos")
+                zipalign = os.path.join(os.getcwd(), "zipalign_mac")
         else:
             zipalign = os.path.join(os.getcwd(), "zipalign.exe")
         os.system(zipalign + " -v 4 " + self.name +
